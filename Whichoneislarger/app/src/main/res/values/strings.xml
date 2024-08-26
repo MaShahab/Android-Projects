@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Which one is larger</string>
+    <string name="user_points">Your points is :</string>
+    <string name="best_score">Best score</string>
+    <string name="user_name">Please Enter your name</string>
+    <string name="confirm">Confirm</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Chat Room</string>
+    <string name="user_name">User name</string>
+    <string name="password">Password</string>
+    <string name="Email">Email</string>
+    <string name="register">Register</string>
+    <string name="log_out">Log out</string>
+    <string name="Log_in">Login</string>
+    <string name="optional">Optional</string>
+    <string name="message">Message</string>
+</resources>

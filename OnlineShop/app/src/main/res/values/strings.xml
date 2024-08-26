@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">OnlineShop</string>
+    <string name="Register">ثبت نام</string>
+    <string name="username">نام کاربری</string>
+    <string name="password">رمز عبور</string>
+    <string name="email">ایمیل</string>
+    <string name="sentence">اگر قبلا ثبت نام کرده اید،</string>
+    <string name="here">اینجا</string>
+    <string name="second_sentence">را کلیک کنید</string>
+    <string name="login">ورود به سیستم</string>
+    <string name="login2nd">ورود</string>
+    <string name="products_list">لیست محصولات</string>
+    <string name="product_selection">برای انتخاب محصول مورد نظر روی آن کلیک کنید</string>
+    <string name="product_comments">"لیست نظرات این محصول"</string>
+    <string name="not_comment_exist">برای این محصول نظری ثبت نشده است</string>
+    <string name="comments">نظرات</string>
+    <string name="register_product">ثبت سفارش</string>
+    <string name="select_numbers">لطفا نام کاربری و تعداد محصول خود را وارد کنید</string>
+    <string name="numbers">تعداد محصول</string>
+    <string name="reg">ثبت</string>
+    <string name="order_status">وضعیت سفارش</string>
+    <string name="shop_cart">سبد خرید</string>
+    <string name="shop_cart_status">وضعیت سبد خرید</string>
+    <string name="enquiry_message">جهت استعلام سبد خرید نام کاربری خود را وارد کنید</string>
+    <string name="product_id">آی دی محصول</string>
+    <string name="order_date">تاریخ سفارش</string>
+    <string name="order_id">آی دی  سفارش</string>
+    <string name="enter_address">لطفا آدرس خود را وارد کنید</string>
+    <string name="introduce_yourself">لطفا مشخصات خود را وارد کنید</string>
+    <string name="enter_phone_number">شماره تماس</string>
+    <string name="enter_address2">آدرس خود را وارد کنید</string>
+    <string name="add_address">افزودن آدرس</string>
+    <string name="speciphications_with_username">مشخصات بر حسب نام کاربری</string>
+    <string name="get_speciphications">استعلام ثبت مشخصات توسط نام کاربری</string>
+    <string name="remove_cart">حذف سبد</string>
+    <string name="remove">حذف</string>
+    <string name="remove_cart_dialog">جهت حذف سبد خرید خود نام کاربری را وارد کنید</string>
+    <string name="add_to_cart">افزودن به سبد</string>
+    <string name="address_id">آی دی آدرس</string>
+    <string name="total_price">هزینه نهایی</string>
+    <string name="save_informations">ذخیره اطلاعات</string>
+    <string name="whole_orders_list">لیست همه سفارشات</string>
+    <string name="text_title_orders_fragment">جهت گرفتن لیست تمامی سفارشاتتان نام کاربری خود را وارد کنید</string>
+    <string name="orders_inquiries">استعلام سفارشات</string>
+    <string name="product_datails">جزِیات محصول</string>
+    <string name="account_control">مدیریت حساب کاربری</string>
+    <string name="sign_out">خروج از حساب</string>
+    <string name="show">نمایش بده</string>
+    <string name="online_Shop_txt">فروشگاه اینترنتی</string>
+    <string name="mahdi_shahabedin">مهدی شهاب الدین</string>
+
+
+</resources>

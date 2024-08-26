@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Games Pack</string>
+    <string name="start_game">Start Game !</string>
+    <string name="best_score">Best Score</string>
+    <string name="user_name">Please enter your name :</string>
+    <string name="user_name_entering">Enter your name to start the game!</string>
+    <string name="confirm">Confirm</string>
+    <string name="remain">Remain time is :</string>
+    <string name="Score">Your score is :</string>
+    <string name="both">Both Same</string>
+    <string name="one">One Same</string>
+    <string name="none">Non same</string>
+    <string name="game_pack">Game pack</string>
+    <string name="which_one">Which one larger</string>
+    <string name="speed_match">Speed match</string>
+</resources>

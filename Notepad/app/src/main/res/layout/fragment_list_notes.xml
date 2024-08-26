@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/main_back">
+
+    <!--<EditText-->
+        <!--android:id="@+id/edit_search"-->
+        <!--android:layout_width="379dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintVertical_bias="0"/>-->
+
+    <!--<ListView-->
+        <!--android:id="@+id/list_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--android:layout_marginVertical="35dp"-->
+        <!--android:divider="#806326"-->
+        <!--android:dividerHeight="1dp"-->
+        <!--android:elevation="@dimen/ultra"/>-->
+
+
+    <com.mancj.materialsearchbar.MaterialSearchBar
+        android:id="@+id/material_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mt_placeholderColor="@color/colorPrimaryDark"
+        android:elevation="@dimen/xx_ultra"
+        app:mt_placeholder="Search" />
+
+   <Button
+    android:id="@+id/btn_add_new_note"
+    android:layout_width="@dimen/large_size"
+    android:layout_height="@dimen/large_size"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintVertical_bias="0.98"
+    app:layout_constraintHorizontal_bias="0.97"
+    android:background="@drawable/custom_made_button"
+    android:text="+"
+    android:textSize="@dimen/medium_size"
+    android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintHorizontal_bias="0.78"
+        android:textSize="@dimen/medium_size"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="@font/danstevis"
+        android:text="@string/notes_list"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="385dp"
+        android:layout_height="600dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/material_search"
+        app:layout_constraintVertical_bias="1"/>
+
+</android.support.constraint.ConstraintLayout>

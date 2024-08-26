@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Clock</string>
+    <string name="stop_watch">Stop Watch</string>
+    <string name="count_dwon">Count dwon</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="pause">Pause</string>
+    <string name="Time">Time is :</string>
+    <string name="count_down">Count down</string>
+    <string name="time_setting">Please set the count down time to start</string>
+    <string name="user_entering">Enter a time to scheme of MM:SS</string>
+    <string name="remained">Remain time :</string>
+    <string name="second">SS</string>
+    <string name="minute">MM</string>
+    <string name="time_is_up">Time is up !</string>
+</resources>

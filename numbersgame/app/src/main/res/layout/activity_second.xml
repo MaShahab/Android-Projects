@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="">
+
+
+    <TextView
+        android:id="@+id/game_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="23dp"
+        android:text="Your score is :"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/game_level"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:padding="16dp"
+            android:textSize="18dp"
+            android:layout_margin="30dp"
+            android:background="#cbdfaf"
+            android:text="Round is :"/>
+
+        <TextView
+            android:id="@+id/Time_Remaining"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:padding="16dp"
+            android:textSize="18dp"
+            android:layout_margin="30dp"
+            android:background="#aaaaff"
+            android:text="Round is :"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:text="Click the button which is larger"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Left_button"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="9dp"
+            android:layout_weight="2"
+            android:background="#fabfff"
+            android:text="15" />
+
+        <Button
+            android:id="@+id/Right_button"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="9dp"
+            android:layout_weight="2"
+            android:background="#fabfff"
+            android:text="20" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/equal_button"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="#ffffaa"
+        android:text="Equal" />
+    <Button
+        android:id="@+id/button_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:padding="20dp"
+        android:background="#ffaaaa"
+        android:text="Press to show output"/>
+
+    <TextView
+        android:id="@+id/out_put"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="29dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text=""/>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="xx_small">5dp</dimen>
+    <dimen name="x_small">10dp</dimen>
+    <dimen name="small">20dp</dimen>
+    <dimen name="medium">30dp</dimen>
+    <dimen name="large">40dp</dimen>
+    <dimen name="x_large">50dp</dimen>
+    <dimen name="xx_large">100dp</dimen>
+    <dimen name="xxx_large">190dp</dimen>
+    <dimen name="mega">250dp</dimen>
+    <dimen name="super_mega">340dp</dimen>
+    <dimen name="superX_mega">490dp</dimen>
+</resources>

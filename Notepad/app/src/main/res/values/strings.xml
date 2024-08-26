@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Notepad</string>
+    <string name="notes_list">لیست نوت ها</string>
+    <string name="enter_data">مشخصات نوت خود را وارد و کلید ثبت را بزنید</string>
+    <string name="title">موضوع</string>
+    <string name="content">محتوا :</string>
+    <string name="date">تاریخ</string>
+    <string name="time">زمان</string>
+    <string name="register">ثبت</string>
+    <string name="update_note">بروز رسانی نوت</string>
+    <string name="alert">"هشدار !                                                   "</string>
+    <string name="note_search">جستجوی نوت مورد نظر</string>
+</resources>
